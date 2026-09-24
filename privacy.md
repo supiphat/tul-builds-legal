@@ -4,7 +4,7 @@
 
 **Effective:** 2026-09-24
 
-**What changed (2026-09-24):** the private message is now shorter plain text. It shows the link to this policy and how to opt out on the first message we send you, and again if more than 30 days have passed since our last one. If you reply STOP and later comment a keyword again, that comment now counts as a new request: you get the message and come off the do-not-message list. These changes apply only to comments made after this version was published.
+**What changed (2026-09-24):** the private message is shorter: "hey! here's the guide 👇" and the link. When it carries the opt-out note and the link to this policy, each now sits on its own line, and the policy link uses a shorter address, supiphat.github.io/legal/privacy. The old address, supiphat.github.io/tul-builds-legal, no longer works. The new message applies only to comments made after this version was published.
 
 This policy explains what happens to your information when you comment a keyword on a post by the Instagram account **@tul.builds** and get a message and a reply back. It covers that one thing only.
 
@@ -41,7 +41,7 @@ We have not appointed a representative in the EU or the UK.
 1. You comment on one of @tul.builds's own posts.
 2. An automated script, set up and overseen by the operator and running on the operator's own computer, reads comments on those posts through Meta's official Instagram API. Only posts from the last 30 days are checked for the keyword, and only comments made in the last 7 days get an answer, because Instagram allows a private reply only within 7 days of a comment.
 3. If your comment contains that post's keyword, the script:
-   - sends you **one** private message (an Instagram "private reply") in plain text: "hey! here's the guide 👇" and a link to the free document (hosted as a secret GitHub gist). If the script hasn't sent you a message in the last 30 days, the message also ends with a line saying it's an auto-reply, with a link to this policy and "reply STOP to opt out".
+   - sends you **one** private message (an Instagram "private reply") in plain text: "hey! here's the guide 👇" and a link to the free document (hosted as a secret GitHub gist). The first message the script sends you, and any message sent more than 30 days after its last one to you, also says "reply STOP to opt out" and links this policy.
    - then posts a short public reply to your comment, such as "check your DMs! 📩".
    - You get at most one private message per post, however many times you comment.
 4. We never send follow-up messages. If you reply to our message, the script reads your reply automatically only to check for STOP or a privacy request (sections 8 and 9). It never replies to it, and the text of your reply is never stored by the script. If you send us a privacy request, the operator answers it personally.
@@ -218,4 +218,5 @@ Because we get your data from Instagram rather than from you directly, the first
 
 Older change notes are listed here, newest first.
 
+- **2026-09-24 (update):** the private message is now shorter plain text. It shows the link to this policy and how to opt out on the first message we send you, and again if more than 30 days have passed since our last one. If you reply STOP and later comment a keyword again, that comment now counts as a new request: you get the message and come off the do-not-message list. These changes apply only to comments made after this version was published.
 - **2026-09-24:** first published version.

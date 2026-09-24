@@ -2,7 +2,7 @@
 
 **Last updated:** 2026-09-24
 
-**What changed (2026-09-24):** if you replied STOP, your ID now also comes off the do-not-message list when you comment a keyword again, because that comment counts as a new request. This applies only to comments made after this version was published.
+**What changed (2026-09-24):** these pages moved to a shorter address, supiphat.github.io/legal. The old address, supiphat.github.io/tul-builds-legal, no longer works.
 
 This page explains how to get your data deleted if you commented a keyword on an **@tul.builds** Instagram post and got an automated message and reply. The full picture is in the [Privacy Policy](./privacy.html).
 
@@ -84,4 +84,5 @@ Email **supiphatk17@gmail.com** or DM **@tul.builds**.
 
 Older change notes are listed here, newest first.
 
+- **2026-09-24 (update):** if you replied STOP, your ID now also comes off the do-not-message list when you comment a keyword again, because that comment counts as a new request. This applies only to comments made after this version was published.
 - **2026-09-24:** first published version.

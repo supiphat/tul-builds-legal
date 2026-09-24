@@ -4,7 +4,7 @@
 
 **Effective:** 2026-09-24
 
-**What changed (2026-09-24):** if you reply STOP and later comment a keyword again, that comment now counts as a new request and you get the message. This applies only to comments made after this version was published.
+**What changed (2026-09-24):** these pages moved to a shorter address, supiphat.github.io/legal. The old address, supiphat.github.io/tul-builds-legal, no longer works.
 
 These terms cover the free service where you comment a keyword on an **@tul.builds** Instagram post and get a message with a link to a document. They're short on purpose. By commenting a keyword to request a document, or by using a document we send you, you agree to them.
 
@@ -101,4 +101,5 @@ We may update these terms. When we do, we'll change the "Last updated" date at t
 
 Older change notes are listed here, newest first.
 
+- **2026-09-24 (update):** if you reply STOP and later comment a keyword again, that comment now counts as a new request and you get the message. This applies only to comments made after this version was published.
 - **2026-09-24:** first published version.
