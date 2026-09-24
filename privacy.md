@@ -4,7 +4,7 @@
 
 **Effective:** 2026-09-24
 
-**What changed (2026-09-24):** first published version.
+**What changed (2026-09-24):** the private message is now shorter plain text. It shows the link to this policy and how to opt out on the first message we send you, and again if more than 30 days have passed since our last one. If you reply STOP and later comment a keyword again, that comment now counts as a new request: you get the message and come off the do-not-message list. These changes apply only to comments made after this version was published.
 
 This policy explains what happens to your information when you comment a keyword on a post by the Instagram account **@tul.builds** and get a message and a reply back. It covers that one thing only.
 
@@ -15,7 +15,7 @@ This policy explains what happens to your information when you comment a keyword
 > - If you comment a post's keyword, an automated script sends you **one** private message with a link to a free document and replies to your comment.
 > - We read your comment only to check for the keyword. We don't store your comment or your username.
 > - We store just two things: the **comment ID** and your **Instagram-scoped user ID**, in local files on the operator's own computer. They're deleted automatically after **30 days**, unless you reply STOP or have an open privacy request with us.
-> - Reply **STOP** and you won't be messaged again.
+> - Reply **STOP** and you won't be messaged again, unless you later comment a keyword again, which counts as a new request.
 > - No follow-up messages. The only other message you could get from us is a personal answer to a privacy request you send.
 > - No selling, no advertising, no profiling, no link tracking, and the reply script uses no AI.
 > - Want your record deleted? Email **supiphatk17@gmail.com** or DM **@tul.builds**. Done within 30 days.
@@ -41,8 +41,8 @@ We have not appointed a representative in the EU or the UK.
 1. You comment on one of @tul.builds's own posts.
 2. An automated script, set up and overseen by the operator and running on the operator's own computer, reads comments on those posts through Meta's official Instagram API. Only posts from the last 30 days are checked for the keyword, and only comments made in the last 7 days get an answer, because Instagram allows a private reply only within 7 days of a comment.
 3. If your comment contains that post's keyword, the script:
-   - sends you **one** private message (an Instagram "private reply"). That message contains a link to the free document (hosted as a secret GitHub gist), a line saying the message is automated, a link to this policy, and "reply STOP and I won't message you again".
-   - then posts a short public reply to your comment.
+   - sends you **one** private message (an Instagram "private reply") in plain text: "hey! here's the guide 👇" and a link to the free document (hosted as a secret GitHub gist). If the script hasn't sent you a message in the last 30 days, the message also ends with a line saying it's an auto-reply, with a link to this policy and "reply STOP to opt out".
+   - then posts a short public reply to your comment, such as "check your DMs! 📩".
    - You get at most one private message per post, however many times you comment.
 4. We never send follow-up messages. If you reply to our message, the script reads your reply automatically only to check for STOP or a privacy request (sections 8 and 9). It never replies to it, and the text of your reply is never stored by the script. If you send us a privacy request, the operator answers it personally.
 
@@ -61,7 +61,7 @@ If your comment doesn't contain the keyword, nothing happens.
 | Timestamp of the comment | Read in memory to check the 7-day limit | **No** |
 | Text of messages you send to @tul.builds | Read in memory only to check for STOP or a privacy request. The conversation itself stays in Instagram (section 6) | **No** |
 | Comment ID | Kept to record which comment was answered | Yes, 30 days |
-| Your Instagram-scoped user ID | Kept alongside the comment ID; also used for the STOP list (section 8) and to track a privacy request you send by DM | Yes, 30 days (longer only on the STOP list, or while your privacy request is open) |
+| Your Instagram-scoped user ID | Kept alongside the comment ID; also used to check whether we've messaged you in the last 30 days, for the STOP list (section 8) and to track a privacy request you send by DM | Yes, 30 days (longer only on the STOP list, or while your privacy request is open) |
 
 An Instagram-scoped user ID is a number Meta gives our account to identify you. It isn't your username and other apps see a different number for you.
 
@@ -71,9 +71,9 @@ We keep **aggregate counts** (for example, how many links were sent). These cont
 
 ## 4. Why we use it and our lawful basis
 
-**Purpose:** to send you the document you asked for by commenting the keyword, and to avoid messaging you again after you say STOP.
+**Purpose:** to send you the document you asked for by commenting the keyword, and to not message you after you reply STOP, unless you later comment a keyword again.
 
-We keep the comment ID and user ID for 30 days for two reasons: so the script never answers the same comment twice or messages you twice for the same post, and so we can find your record if you make a privacy request.
+We keep the comment ID and user ID for 30 days for three reasons: so the script never answers the same comment twice or messages you twice for the same post; so it can tell whether it has messaged you in the last 30 days, and add the policy link and opt-out note only if it hasn't; and so we can find your record if you make a privacy request. That 30-day check uses only these stored IDs and their dates, nothing extra.
 
 **Lawful basis:** legitimate interest, meaning our interest in answering a request you made publicly by commenting the keyword. This is PDPA section 24(5) in Thailand and Article 6(1)(f) of the GDPR in the EU and UK. We think this is fair to you because you asked for the document, we keep almost nothing, and you can stop it at any time.
 
@@ -118,7 +118,7 @@ We don't give your data to anyone for their own use. These companies are involve
 
 - **Comment text, username, comment timestamp and the text of your messages:** not stored by the script. Gone once the script finishes.
 - **Comment ID and Instagram-scoped user ID:** deleted automatically after **30 days**.
-- **STOP list entry:** kept for as long as needed to honour your opt-out (see section 8).
+- **STOP list entry:** kept until you ask us to remove it or you comment a keyword again (see section 8).
 - **Records of a privacy request:** if you DM us a request, your Instagram-scoped user ID and the date are kept until we complete it. Once any request is closed, we keep only the type of request and its dates, as a reminder to delete the request thread 12 months later. That record is gone within 13 months.
 - **Aggregate counts:** kept, but contain no personal data.
 - **Your privacy request itself** (the email or DM thread, and our replies): kept for 12 months after we close the request, then deleted from our Gmail or Instagram inbox.
@@ -129,10 +129,10 @@ We don't give your data to anyone for their own use. These companies are involve
 
 You only get a message because you commented the keyword. After that:
 
-- **Reply STOP** (or "unsubscribe", or "stop messaging") and we won't message you again. Your Instagram-scoped user ID goes on a local do-not-message list so the script skips you in future, even if you comment a keyword again. The only exception is a personal answer if you later send us a privacy request.
+- **Reply STOP** (or "unsubscribe", or "stop messaging") and we won't message you again. Your Instagram-scoped user ID goes on a local do-not-message list so the script skips your comments. Comments you made before your STOP are never answered. If you later comment a keyword on a post you haven't already had the message for, that counts as a new request: you get the message and your ID comes off the do-not-message list. The only other exception is a personal answer if you later send us a privacy request.
 - **Delete your comment** before the script gets to it, and no reply is sent.
 
-**The trade-off with the STOP list.** We keep your ID on the do-not-message list indefinitely, because that's the only way to remember not to message you. You can ask us to remove it, but then we'd have no record of your STOP, and you could be messaged again if you comment a keyword in future.
+**The trade-off with the STOP list.** We keep your ID on the do-not-message list until you ask us to remove it or you comment a keyword again, because that's the only way to remember not to message you. You can ask us to remove it, but then we'd have no record of your STOP, and the script would treat you like someone who never replied STOP.
 
 ---
 
@@ -191,7 +191,7 @@ We don't track you across websites or over time, so there's nothing for a browse
 
 ## 13. Changes to this policy
 
-If we change this policy, we'll update the "Last updated" date at the top. The private message always links to the current version.
+If we change this policy, we'll update the "Last updated" date at the top. Whenever a private message includes the link to this policy, it points to the current version.
 
 Each change also gets a short "What changed" note at the top of this page. The latest note stays there, and older notes move to the Changes log at the bottom.
 
@@ -210,10 +210,12 @@ These pages are published from a public GitHub repository, so its history is a p
 
 ## 15. When you first see this
 
-Because we get your data from Instagram rather than from you directly, the first private message we send you includes a link to this policy.
+Because we get your data from Instagram rather than from you directly, the first private message we send you includes a link to this policy. We include it again in any later message if more than 30 days have passed since our last one.
 
 ---
 
 ## Changes log
 
-Older change notes are listed here, newest first. There are none yet: this is the first version.
+Older change notes are listed here, newest first.
+
+- **2026-09-24:** first published version.

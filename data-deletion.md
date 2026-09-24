@@ -2,7 +2,7 @@
 
 **Last updated:** 2026-09-24
 
-**What changed (2026-09-24):** first published version.
+**What changed (2026-09-24):** if you replied STOP, your ID now also comes off the do-not-message list when you comment a keyword again, because that comment counts as a new request. This applies only to comments made after this version was published.
 
 This page explains how to get your data deleted if you commented a keyword on an **@tul.builds** Instagram post and got an automated message and reply. The full picture is in the [Privacy Policy](./privacy.html).
 
@@ -16,7 +16,7 @@ At most, two things, in local files on the operator's own computer:
 - the **comment ID** of the comment we replied to, and
 - your **Instagram-scoped user ID** (a number Meta gives our account for you; not your username).
 
-These are deleted automatically after **30 days** anyway. If you replied **STOP**, your Instagram-scoped user ID is also on a do-not-message list until you ask us to remove it.
+These are deleted automatically after **30 days** anyway. If you replied **STOP**, your Instagram-scoped user ID is also on a do-not-message list until you ask us to remove it or you comment a keyword again.
 
 If you asked us by DM to delete your data, your Instagram-scoped user ID is also kept with that request until we've completed it.
 
@@ -51,7 +51,7 @@ We complete deletion within **30 days** of your request. We remove your records 
 
 ## A note on the STOP list
 
-If you replied STOP and ask us to delete everything, we'll ask whether you want your ID removed from the do-not-message list too. Removing it means we'd have no record that you said STOP, so you could be messaged again if you comment a keyword in future. Keeping it means we won't.
+If you replied STOP and ask us to delete everything, we'll ask whether you want your ID removed from the do-not-message list too. Removing it means we'd have no record that you said STOP, so the script would treat you like someone who never replied STOP. Keeping it means we won't message you again unless you comment a keyword again, which counts as a new request.
 
 ---
 
@@ -82,4 +82,6 @@ Email **supiphatk17@gmail.com** or DM **@tul.builds**.
 
 ## Changes log
 
-Older change notes are listed here, newest first. There are none yet: this is the first version.
+Older change notes are listed here, newest first.
+
+- **2026-09-24:** first published version.

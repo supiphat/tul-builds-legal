@@ -4,7 +4,7 @@
 
 **Effective:** 2026-09-24
 
-**What changed (2026-09-24):** first published version.
+**What changed (2026-09-24):** if you reply STOP and later comment a keyword again, that comment now counts as a new request and you get the message. This applies only to comments made after this version was published.
 
 These terms cover the free service where you comment a keyword on an **@tul.builds** Instagram post and get a message with a link to a document. They're short on purpose. By commenting a keyword to request a document, or by using a document we send you, you agree to them.
 
@@ -21,7 +21,7 @@ The service is run by **Supiphat Kasetrsuwan**, an individual operating the Inst
 
 ## 2. What the service is
 
-It's free and opt-in. If you comment a post's keyword, an automated script sends you one private message with a link to a free document and replies to your comment. You get at most one private message per post. We never send follow-up messages. The only other message you could get from us is a personal answer to a privacy request you send. Reply **STOP** at any time and we won't message you again, except to answer a privacy request you later send us.
+It's free and opt-in. If you comment a post's keyword, an automated script sends you one private message with a link to a free document and replies to your comment. You get at most one private message per post. We never send follow-up messages. The only other message you could get from us is a personal answer to a privacy request you send. Reply **STOP** at any time and we won't message you again, except to answer a privacy request you later send us. If you later comment a keyword again, that counts as a new request and you get the message.
 
 How we handle your data is explained in the [Privacy Policy](./privacy.html).
 
@@ -99,4 +99,6 @@ We may update these terms. When we do, we'll change the "Last updated" date at t
 
 ## Changes log
 
-Older change notes are listed here, newest first. There are none yet: this is the first version.
+Older change notes are listed here, newest first.
+
+- **2026-09-24:** first published version.
