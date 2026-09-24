@@ -1,0 +1,8 @@
+title: tul.builds Legal
+description: Privacy policy, data deletion instructions and terms for the @tul.builds Instagram comment replies
+theme: jekyll-theme-primer
+exclude:
+  - src
+  - test
+  - build.js
+  - README.md
